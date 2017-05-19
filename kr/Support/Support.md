@@ -44,6 +44,17 @@ qgroundcontrol --logging:full</code>
 
 다양한 QGroundControl 사용자와 QGroundControl 개발자를 QGroundControl [Gitter](https://gitter.im/mavlink/qgroundcontrol)에서 만날 수 있습니다. 만약 QGroundControl에 관련된 최신 정보를 얻고자 한다면 이 채널을 주의깊게 지켜보는 것을 추천합니다.
 
+## GitHub 이슈
+이슈는 향후 버전에 대한 기능 요청뿐만 아니라 버그를 추적하는데 사용됩니다. 현재 이슈 목록은 https://github.com/mavlink/qgroundcontrol/issues 를 참고하세요.
+
+Github에 있는 이슈에 대해서 직접 처리하기 전에 아래 Gitter 채널을 사용해서 개발자와 먼저 연락하세요.
+
+### 버그 리포팅
+먼저 Gitter 채널에서 버그에 대해서 물어보는 것이 가장 좋습니다. 버그처럼 보이는 많은 원인이 실제로는 비행체 셋업과 관련된 문제일 수 있습니다. 이런 과정 후에 위 링크를 통해 Github의 버그 이슈에 대해서 알아보기 바랍니다.
+
+### 기능 요청
+요청 하는 기능이 실제로 빠져있는지 Gitter 채널을 통해서 먼저 알아보고 기능 요청을 합니다. 여러분이 찾는 기능이 있는데 여러분지 찾지 못하는 경우가 있을 수 있습니다. 정말 해당 기능이 없다면 위 링크를 통해 기능 요청을 Github 이슈에 등록합니다.
+
 ## QGroundControl 사용자 돕기
 
 QGroundControl와 같이 사용자 가이드도 오픈소스입니다. [Pull Requests](https://github.com/mavlink/qgc-user-guide/pulls)를 통해 가이드를 수정하고 업데이트하는 것을 환영합니다.
