@@ -2,7 +2,8 @@
 
 이 사용자 가이드는 QGroundControl이 지원하는 기능을 소개합니다. 만약 중요한 정보를 빼먹었거나 정확하지 않은 정보가 있다면 [Issue](https://github.com/mavlink/qgc-user-guide/issues)로 보내주세요.
 
-QGroundControl 관련 질문 및 문제 리포팅은 [QGroundControl Google Group](http://groups.google.com/group/qgroundcontrol)을 이용해 주세요.
+
+QGroundControl 관련 질문 및 문제 리포팅은 [여기 QGroundControl 사용 카테고리](http://discuss.px4.io/c/qgroundcontrol/qgroundcontrol-usage)을 이용해 주세요.
 
 ## Console Logging
 
@@ -20,7 +21,7 @@ QGroundControl 관련 질문 및 문제 리포팅은 [QGroundControl Google Grou
 * MissionManagerLog - 미션 컨트롤 이슈 디버깅
 * RadioComponentControllerLog - 라디오 칼리브레이션 이슈 디버깅
 
-### command line으로 logging
+### command line에서 logging
 
 로깅에 대한 다른 대안은 --logging command line 옵션입니다. QGroundControl이 crash되는 상황에서 로그를 얻고자할 때 유용합니다.
 

@@ -1,21 +1,36 @@
 # Airframe Setup
 
-이 페이지에서는 여러분의 비행체와 관련해서 주요 에어프레임 설정에 대해서 알아봅니다. 만약 PX4 Pro 펌웨어나 ArduPilot 펌웨어를 사용하는 경우 이 페이지와 다를 수 있습니다.
+이 페이지에서는 여러분의 비행체와 관련해서 주요 에어프레임 설정에 대해서 알아봅니다. 사용하는 flight controller 펌웨어에 따라서 관점이 달라집니다.
+
+
+## PX4 Pro Airframe Setup
+
+1. 먼저 상단 툴바에 있는 **Gear** 아이콘 (Vehicle Setup)을 선택하고 사이드바에서 **Airframe** 을 선택합니다.
+
+1. airframe과 일치하는 group/type을 선택하고 group 내에 여러분의 비행체와 가장 잘 맞는 airframe을 선택하기 위해 드롭다운을 사용합니다.
+
+   ![](../../images/setup/airframe_px4.jpg)
+
+   위에 예제에서는 *Quadrotor Wide* 그룹에서 *3DR Iris Quadrotor* 을 선택했습니다.
+
+1. **Apply and Restart** 을 클릭합니다. 셋팅을 저장하기 위해서 다음 프롭프트에서 **Apply** 를 클릭하고 비행체를 재시작 시킵니다.
+
+   <img src="../../images/setup/airframe_px4_apply_prompt.jpg" width="200px" title="Apply airframe selection prompt" />
+
 
 ## ArduCopter Airfame Setup
 
-![](../../images/setup/APMAirframe.jpg)
+> **Note** Airframe Setup은 *ArduCopter* 장치에서만 가능하빈다.(*ArduPilot* Rover나 Plane 장치에서는 보이지 않습니다.)
 
-여러분의 비행체에 맞는 프레임 타입을 선택합니다. "Load common parameters"을 클릭해서 알려진 비행체 타입에 대한 파라미터 집합을 불러오기할 수 있습니다. :
+1. 먼저 상단 툴바에 있는 **Gear** 아이콘 (Vehicle Setup)을 선택하고 사이드바에서 **Airframe** 을 선택합니다.
 
-![](../../images/setup/APMAirframeParams.jpg)
+1. 여러분의 비행체와 일치하는 프레임 type을 선택합니다. (라디오 버튼 선택해서 해당 선택을 적용합니다.)
 
-Note: 에어프레임 셋업은 ArduCopter 비행체에서만 가능합니다. 다른 ArduPilot 비행체 에어프레임 셋업은 다루지 않습니다.
+   ![airframe 타입 선택하기](../../images/setup/airframe_ardupilot.jpg)
 
-## PX4 Pro Airfame Setup
 
-![](../../images/setup/PX4Airframe.jpg)
+   * 유명한 비행체 타입에 대해서는 파리미터 집합을 로드하기 위해서는 **Load common parameters** 을 클릭할 수 있습니다.
 
-여러분의 비행체와 가장 잘 맞는 특정 에어프레임을 해당 그룹내에 드롭다운에서 선택합니다. 위 예제 이미지는 Quadrotor 그룹에 있는 3DR Iris Quadrotor를 보여주고 있습니다.
+     ![비행체 파라미터 로드하기](../../images/setup/airframe_ardupilot_parameters.jpg)
 
-여러분의 에어프레임을 선택하고 난 후에, Apply and Restart를 클릭합니다. 이렇게 하면 셋팅을 저장하고 비행체를 재시작 시킵니다.
+     > **Tip** 프롬프트를 닫으면 자동으로 솔정이 적용됩니다.

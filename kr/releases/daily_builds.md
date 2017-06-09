@@ -8,24 +8,14 @@
 
 * [Windows](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl-installer.exe)
 * [OS X](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.dmg)
-* Linux 
+* Linux
   * [AppImage](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.AppImage)
   * [Compressed Archive](https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2)
-<<<<<<< HEAD
-* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta&rdid=org.mavlink.qgroundcontrolbeta) 
-  > **Warning** daily builds를 잠시 중단합니다. ([#5162](https://github.com/mavlink/qgroundcontrol/issues/5162)).
-  
+* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta) (Google Play)
+
   <span></span>
   > **Note** 기존 베타 테스트는 더 이상 지원하지 않습니다. 만약 기존에 멤버였다면 [멤버 탈퇴](https://play.google.com/apps/testing/org.mavlink.qgroundcontrol)를 하도록 합니다.
 * [iOS](#installing-ios-beta-using-test-flight) (Open Beta via Test Flight)
-=======
-* [Android](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta&rdid=org.mavlink.qgroundcontrolbeta)
-
-## Android daily builds
-
-구글 플레이 스토어에서 안드로이드용 Daily builds을 받을 수 있습니다. 기존 베타 테스트는 더 이상 지원하지 않습니다. 만약 기존에 멤버였다면 [멤버 탈퇴](https://play.google.com/store/apps/details?id=org.mavlink.qgroundcontrolbeta)를 하도록 합니다.
->>>>>>> origin/master
-
 
 ## Test Flight 사용해서 iOS Beta 설치
 
